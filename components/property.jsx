@@ -8,9 +8,13 @@ import { GoVerified } from 'react-icons/go';
 import millify from 'millify';
 
 const Property = ({property: {coverPhoto, price, rentFrequency, rooms, title, baths, area, agency, isVerified, externalID}}) => {
+  console.log(externalID);
+  return(
   <Link href={`property/${externalID}`} passHref>
     {title}
   </Link>
+
+  )
 }
 
 export default Property;
