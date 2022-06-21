@@ -21,7 +21,7 @@ export const Banner = ({ purpose, title1, title2, desc1, desc2, buttonText, link
 
 
 export default function Home({propertiesForRent, propertiesForSale}) {
-  // console.log(propertiesForRent, propertiesForSale)
+  console.log(propertiesForRent, propertiesForSale)
   return (
     <Box>
     <Banner
@@ -49,7 +49,9 @@ export default function Home({propertiesForRent, propertiesForSale}) {
       imageUrl='https://bayut-production.s3.eu-central-1.amazonaws.com/image/110993385/6a070e8e1bae4f7d8c1429bc303d2008'
     />
     <Flex flexWrap={"wrap"} >
-    {/* fetching the properties and map over them... */}
+    <Flex flexWrap='wrap'>
+      {propertiesForSale.map((property) => <Property property={property} key={property.id} />)}
+    </Flex>
     </Flex>
 
     </Box>
