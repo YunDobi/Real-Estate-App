@@ -30,7 +30,7 @@ const Navbar = () => {
             <MenuItem icon={<FcAbout />}>Buy Property</MenuItem>
           </Link>
           {/* //for-rent link */}
-          <Link href="/serch?purpose=for-rent" passHref>
+          <Link href="/search?purpose=for-rent" passHref>
             <MenuItem icon={<FiKey />}>Rent Property</MenuItem>
           </Link>
         </MenuList>
