@@ -17,15 +17,14 @@ const Search = ({properties}) => {
   return (
     <Box>
       <Flex
-        cursor={"pointer"}
-        bg="grey.400"
-        borderBottom={"1px"}
+        cursor="pointer"
         borderColor="gray.400"
-        p={"2"}
+        bg="gray.100"
+        p="2"
         fontWeight="black"
-        fontSize={"lg"}
+        fontSize="lg"
         justifyContent="center"
-        alignItems={"center"}
+        alignItems="center"
         onClick={() => setSearchFilters((prevFilter) => !prevFilter)}
         >
         <Text>Search Property by Filter</Text>
