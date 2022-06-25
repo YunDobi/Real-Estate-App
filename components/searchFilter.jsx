@@ -31,7 +31,7 @@ const SearchFilters = () => {
     const { query } = router;
 
     const values = getFilterValues(filterValue)
-    console.log(values)
+    // console.log(values)
 
     values.forEach((item) => {
       query[item.name] = item.value
