@@ -1,7 +1,7 @@
 import Head from "next/head";
 import { Box } from "@chakra-ui/react";
 
-import Navbar from "/Users/yun/Desktop/work/real_estate_app/components/Navbar";
+import Navbar from "./NavBar";
 import Footer from "./Footer";
 
 export default function Layout ({children}) {
