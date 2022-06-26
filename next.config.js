@@ -6,8 +6,7 @@ const nextConfig = {
   }
 }
 
-// eslint-disable-next-line import/no-anonymous-default-export
-export default {
+module.exports = {
   experimental: {
     forceSwcTransforms: true,
   },
