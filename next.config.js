@@ -7,8 +7,5 @@ const nextConfig = {
 }
 
 module.exports = {
-  experimental: {
-    forceSwcTransforms: true,
-  },
   nextConfig
 }
