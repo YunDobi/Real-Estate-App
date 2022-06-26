@@ -3,7 +3,7 @@ import Head from 'next/head';
 import { NProgress } from 'nprogress'; // loading bar
 import { ChakraProvider } from '@chakra-ui/react' //make same iamges size
 
-import Layout from "../components/layout";
+import Layout from "../components/Layout";
 
 function MyApp({ Component, pageProps }) {
  return(
